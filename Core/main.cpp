@@ -1,7 +1,12 @@
-//
-// Created by lorenzo on 18/04/21.
-//
+
+
+#include "GUI/window_handler.hpp"
+using namespace mn::CppLinuxSerial;
+
 
 int main() {
+
+    WindowHandler win;
+    win.mainLoop();
 
 }
